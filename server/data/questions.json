@@ -1,0 +1,725 @@
+[
+  {
+    "id": "pat_001",
+    "type": "multiple-choice",
+    "domain": "pattern",
+    "difficulty": 1,
+    "prompt": "Complete the series: circle, square, circle, square, circle, ?",
+    "options": {
+      "A": "Triangle",
+      "B": "Circle",
+      "C": "Square",
+      "D": "Pentagon"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "pat_002",
+    "type": "multiple-choice",
+    "domain": "pattern",
+    "difficulty": 1,
+    "prompt": "Look at the pattern: ▲ ▲ ■ ▲ ▲ ■ ▲ ▲ ?",
+    "options": {
+      "A": "▲",
+      "B": "●",
+      "C": "■",
+      "D": "◆"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "pat_003",
+    "type": "multiple-choice",
+    "domain": "pattern",
+    "difficulty": 2,
+    "prompt": "A 3×3 grid: Row 1 has circles, Row 2 has squares, Row 3 has triangles. Each row has 3 of the same shape. One cell is missing from Row 3. What goes there?",
+    "options": {
+      "A": "Circle",
+      "B": "Square",
+      "C": "Triangle",
+      "D": "Diamond"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "pat_004",
+    "type": "multiple-choice",
+    "domain": "pattern",
+    "difficulty": 2,
+    "prompt": "In a 3×3 grid, shapes get one size larger going across each row (small→medium→large), and change fill going down each column (empty→half→full). The bottom-right cell should be:",
+    "options": {
+      "A": "Small empty shape",
+      "B": "Large empty shape",
+      "C": "Large full shape",
+      "D": "Medium half shape"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "pat_005",
+    "type": "multiple-choice",
+    "domain": "pattern",
+    "difficulty": 3,
+    "prompt": "A 3×3 grid shows shapes rotating 90° clockwise across each row. The shape in Row 3, Column 1 is an arrow pointing right (→). What is in Row 3, Column 3?",
+    "options": {
+      "A": "Arrow pointing right (→)",
+      "B": "Arrow pointing down (↓)",
+      "C": "Arrow pointing left (←)",
+      "D": "Arrow pointing up (↑)"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "pat_006",
+    "type": "multiple-choice",
+    "domain": "pattern",
+    "difficulty": 3,
+    "prompt": "Each row has shapes increasing in sides: 3, 4, 5. Each column has shapes increasing in fill: empty, striped, solid. The bottom-right cell should be:",
+    "options": {
+      "A": "Empty pentagon",
+      "B": "Striped pentagon",
+      "C": "Solid pentagon",
+      "D": "Solid square"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "pat_007",
+    "type": "multiple-choice",
+    "domain": "pattern",
+    "difficulty": 4,
+    "prompt": "A 3×3 matrix: each row's middle value equals the difference of the left and right values. Row 1: [9, 4, 5]. Row 2: [7, ?, 3]. Row 3: [6, 2, 4]. What is the missing value?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "10"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "pat_008",
+    "type": "multiple-choice",
+    "domain": "pattern",
+    "difficulty": 4,
+    "prompt": "In a number matrix, each cell equals the product of its row number and column number. The cell at Row 4, Column 3 is missing. What is its value?",
+    "options": {
+      "A": "7",
+      "B": "10",
+      "C": "12",
+      "D": "9"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "pat_009",
+    "type": "multiple-choice",
+    "domain": "pattern",
+    "difficulty": 5,
+    "prompt": "A 3×3 grid where each cell contains a 2×2 mini-grid. The rule: each row applies a 90° clockwise rotation; each column applies a horizontal flip. The top-left cell has its top-left sub-square filled. What pattern does the bottom-right cell show?",
+    "options": {
+      "A": "Top-left sub-square filled",
+      "B": "Top-right sub-square filled",
+      "C": "Bottom-left sub-square filled",
+      "D": "Bottom-right sub-square filled"
+    },
+    "correctAnswer": "D",
+    "svgData": null
+  },
+  {
+    "id": "pat_010",
+    "type": "multiple-choice",
+    "domain": "pattern",
+    "difficulty": 5,
+    "prompt": "A matrix of numbers: [2,3,10], [3,4,13], [4,5,?]. The rule combining the first two numbers to produce the third is consistent. What is the missing value?",
+    "options": {
+      "A": "15",
+      "B": "16",
+      "C": "17",
+      "D": "18"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "pat_011",
+    "type": "multiple-choice",
+    "domain": "pattern",
+    "difficulty": 2,
+    "prompt": "What comes next in the series? 1, 4, 9, 16, 25, ?",
+    "options": {
+      "A": "30",
+      "B": "36",
+      "C": "35",
+      "D": "49"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "pat_012",
+    "type": "multiple-choice",
+    "domain": "pattern",
+    "difficulty": 3,
+    "prompt": "In a sequence of figures, each figure has one more side than the previous. The sequence starts with a triangle. What is the 5th figure?",
+    "options": {
+      "A": "Pentagon",
+      "B": "Hexagon",
+      "C": "Heptagon",
+      "D": "Octagon"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+
+  {
+    "id": "verb_001",
+    "type": "multiple-choice",
+    "domain": "verbal",
+    "difficulty": 1,
+    "prompt": "Book is to Library as Painting is to ?",
+    "options": {
+      "A": "Artist",
+      "B": "Canvas",
+      "C": "Museum",
+      "D": "Frame"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "verb_002",
+    "type": "multiple-choice",
+    "domain": "verbal",
+    "difficulty": 1,
+    "prompt": "Which word does NOT belong? Apple, Banana, Carrot, Mango",
+    "options": {
+      "A": "Apple",
+      "B": "Banana",
+      "C": "Carrot",
+      "D": "Mango"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "verb_003",
+    "type": "multiple-choice",
+    "domain": "verbal",
+    "difficulty": 2,
+    "prompt": "Which word does NOT belong? Scarlet, Crimson, Vermillion, Cobalt, Ruby",
+    "options": {
+      "A": "Scarlet",
+      "B": "Crimson",
+      "C": "Cobalt",
+      "D": "Ruby"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "verb_004",
+    "type": "multiple-choice",
+    "domain": "verbal",
+    "difficulty": 2,
+    "prompt": "Doctor is to Hospital as Professor is to ?",
+    "options": {
+      "A": "Student",
+      "B": "University",
+      "C": "Research",
+      "D": "Lecture"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "verb_005",
+    "type": "multiple-choice",
+    "domain": "verbal",
+    "difficulty": 3,
+    "prompt": "All Blips are Zorps. Some Zorps are Flurps. Which conclusion MUST be true?",
+    "options": {
+      "A": "All Blips are Flurps",
+      "B": "Some Blips are Flurps",
+      "C": "No Blips are Flurps",
+      "D": "None of the above must be true"
+    },
+    "correctAnswer": "D",
+    "svgData": null
+  },
+  {
+    "id": "verb_006",
+    "type": "multiple-choice",
+    "domain": "verbal",
+    "difficulty": 3,
+    "prompt": "Obfuscate is to Clarity as Illuminate is to ?",
+    "options": {
+      "A": "Light",
+      "B": "Brightness",
+      "C": "Darkness",
+      "D": "Visibility"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "verb_007",
+    "type": "multiple-choice",
+    "domain": "verbal",
+    "difficulty": 4,
+    "prompt": "Ephemeral : Permanence :: Laconic : ?",
+    "options": {
+      "A": "Brevity",
+      "B": "Verbosity",
+      "C": "Silence",
+      "D": "Eloquence"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "verb_008",
+    "type": "multiple-choice",
+    "domain": "verbal",
+    "difficulty": 4,
+    "prompt": "If 'some managers are not leaders' and 'all leaders inspire teams', which statement is certainly FALSE?",
+    "options": {
+      "A": "Some managers inspire teams",
+      "B": "Some non-leaders are managers",
+      "C": "All managers inspire teams",
+      "D": "All leaders are managers"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "verb_009",
+    "type": "multiple-choice",
+    "domain": "verbal",
+    "difficulty": 5,
+    "prompt": "Recondite is to Abstruse as Pellucid is to ?",
+    "options": {
+      "A": "Opaque",
+      "B": "Translucent",
+      "C": "Lucid",
+      "D": "Murky"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "verb_010",
+    "type": "multiple-choice",
+    "domain": "verbal",
+    "difficulty": 5,
+    "prompt": "No virtuous person is corrupt. Some politicians are corrupt. Some politicians are virtuous. Which must be true?",
+    "options": {
+      "A": "Some politicians who are virtuous are also corrupt",
+      "B": "The corrupt politicians are not virtuous",
+      "C": "All virtuous people are politicians",
+      "D": "No virtuous politicians exist"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "verb_011",
+    "type": "multiple-choice",
+    "domain": "verbal",
+    "difficulty": 2,
+    "prompt": "Hot is to Cold as Fast is to ?",
+    "options": {
+      "A": "Quick",
+      "B": "Speed",
+      "C": "Slow",
+      "D": "Run"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "verb_012",
+    "type": "multiple-choice",
+    "domain": "verbal",
+    "difficulty": 3,
+    "prompt": "Which pair of words has the most similar relationship to 'Architect : Blueprint'?",
+    "options": {
+      "A": "Teacher : Classroom",
+      "B": "Composer : Score",
+      "C": "Surgeon : Hospital",
+      "D": "Chef : Restaurant"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+
+  {
+    "id": "num_001",
+    "type": "multiple-choice",
+    "domain": "numerical",
+    "difficulty": 1,
+    "prompt": "Complete the series: 2, 4, 6, 8, ?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "12",
+      "D": "11"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "num_002",
+    "type": "multiple-choice",
+    "domain": "numerical",
+    "difficulty": 1,
+    "prompt": "If a shirt costs $20 and is on sale for 25% off, what is the sale price?",
+    "options": {
+      "A": "$14",
+      "B": "$16",
+      "C": "$15",
+      "D": "$18"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "num_003",
+    "type": "multiple-choice",
+    "domain": "numerical",
+    "difficulty": 2,
+    "prompt": "Complete the series: 1, 4, 9, 16, ?",
+    "options": {
+      "A": "20",
+      "B": "25",
+      "C": "24",
+      "D": "36"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "num_004",
+    "type": "multiple-choice",
+    "domain": "numerical",
+    "difficulty": 2,
+    "prompt": "A train travels at 60 mph. How long does it take to travel 150 miles?",
+    "options": {
+      "A": "2 hours",
+      "B": "2 hours 15 minutes",
+      "C": "2 hours 30 minutes",
+      "D": "3 hours"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "num_005",
+    "type": "multiple-choice",
+    "domain": "numerical",
+    "difficulty": 3,
+    "prompt": "Complete the series: 2, 3, 5, 8, 13, ?",
+    "options": {
+      "A": "18",
+      "B": "20",
+      "C": "21",
+      "D": "24"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "num_006",
+    "type": "multiple-choice",
+    "domain": "numerical",
+    "difficulty": 3,
+    "prompt": "A car travels 120 miles at 40 mph, then 120 miles at 60 mph. What is the average speed for the entire trip?",
+    "options": {
+      "A": "50 mph",
+      "B": "48 mph",
+      "C": "52 mph",
+      "D": "45 mph"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "num_007",
+    "type": "multiple-choice",
+    "domain": "numerical",
+    "difficulty": 4,
+    "prompt": "Complete the series: 1, 2, 6, 24, 120, ?",
+    "options": {
+      "A": "240",
+      "B": "600",
+      "C": "720",
+      "D": "360"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "num_008",
+    "type": "multiple-choice",
+    "domain": "numerical",
+    "difficulty": 4,
+    "prompt": "In a group of 30 students, 18 play chess, 14 play checkers, and 5 play neither. How many play both?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "num_009",
+    "type": "multiple-choice",
+    "domain": "numerical",
+    "difficulty": 5,
+    "prompt": "The sequence: 0, 1, 1, 2, 4, 7, 13, 24, ? (each term equals the sum of the previous three terms). What is the missing value?",
+    "options": {
+      "A": "40",
+      "B": "43",
+      "C": "44",
+      "D": "45"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "num_010",
+    "type": "multiple-choice",
+    "domain": "numerical",
+    "difficulty": 5,
+    "prompt": "If log₂(x) + log₂(x-2) = 3, what is x?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "num_011",
+    "type": "multiple-choice",
+    "domain": "numerical",
+    "difficulty": 2,
+    "prompt": "What is 15% of 240?",
+    "options": {
+      "A": "30",
+      "B": "36",
+      "C": "42",
+      "D": "32"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "num_012",
+    "type": "multiple-choice",
+    "domain": "numerical",
+    "difficulty": 3,
+    "prompt": "Complete the series: 3, 6, 11, 18, 27, ?",
+    "options": {
+      "A": "36",
+      "B": "38",
+      "C": "40",
+      "D": "38"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+
+  {
+    "id": "spat_001",
+    "type": "multiple-choice",
+    "domain": "spatial",
+    "difficulty": 1,
+    "prompt": "A square piece of paper is folded in half once, then cut with scissors along the fold. How many pieces of paper do you have?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "spat_002",
+    "type": "multiple-choice",
+    "domain": "spatial",
+    "difficulty": 1,
+    "prompt": "How many faces does a cube have?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "8"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "spat_003",
+    "type": "multiple-choice",
+    "domain": "spatial",
+    "difficulty": 2,
+    "prompt": "How many cubes are in a 3×3×3 structure if the entire front-top-right corner cube is removed?",
+    "options": {
+      "A": "26",
+      "B": "27",
+      "C": "24",
+      "D": "28"
+    },
+    "correctAnswer": "A",
+    "svgData": null
+  },
+  {
+    "id": "spat_004",
+    "type": "multiple-choice",
+    "domain": "spatial",
+    "difficulty": 2,
+    "prompt": "A square piece of paper is folded diagonally, then folded in half again. When unfolded completely, how many fold lines are visible?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "spat_005",
+    "type": "multiple-choice",
+    "domain": "spatial",
+    "difficulty": 3,
+    "prompt": "You are looking at a 3D object from the front and see a circle. From the side, you see a rectangle. From the top, you see a circle. What is the object?",
+    "options": {
+      "A": "Sphere",
+      "B": "Cone",
+      "C": "Cylinder",
+      "D": "Cube"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "spat_006",
+    "type": "multiple-choice",
+    "domain": "spatial",
+    "difficulty": 3,
+    "prompt": "A cube net (unfolded cube) has a row of 4 squares in a line, with one square attached above the 2nd square in the row, and one square attached below the 2nd square. When folded, the 1st square in the row is opposite to which square?",
+    "options": {
+      "A": "The 2nd square",
+      "B": "The 3rd square",
+      "C": "The 4th square",
+      "D": "The square above"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  },
+  {
+    "id": "spat_007",
+    "type": "multiple-choice",
+    "domain": "spatial",
+    "difficulty": 4,
+    "prompt": "Looking at a 3D shape from the front, you see a cross (+). From the top, you see a square. From the side, you see a square. What is the shape?",
+    "options": {
+      "A": "A cube with 4 corners cut off",
+      "B": "A plus-shaped prism (extruded cross)",
+      "C": "A sphere",
+      "D": "A cylinder with notches"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "spat_008",
+    "type": "multiple-choice",
+    "domain": "spatial",
+    "difficulty": 4,
+    "prompt": "A transparent cube has a red dot on the center of the front face. The cube is rotated 90° to the right (around the vertical axis), then 90° forward (around the horizontal axis). Where is the red dot now?",
+    "options": {
+      "A": "On the top face",
+      "B": "On the right face",
+      "C": "On the bottom face",
+      "D": "On the back face"
+    },
+    "correctAnswer": "A",
+    "svgData": null
+  },
+  {
+    "id": "spat_009",
+    "type": "multiple-choice",
+    "domain": "spatial",
+    "difficulty": 5,
+    "prompt": "A cube is painted red on all faces, then cut into 27 equal small cubes (3×3×3). How many small cubes have exactly 2 red faces?",
+    "options": {
+      "A": "8",
+      "B": "12",
+      "C": "24",
+      "D": "6"
+    },
+    "correctAnswer": "B",
+    "svgData": null
+  },
+  {
+    "id": "spat_010",
+    "type": "multiple-choice",
+    "domain": "spatial",
+    "difficulty": 5,
+    "prompt": "An L-shaped piece made of 4 unit cubes (an L-tetromino) is rotated 180° around its vertical axis, then 90° clockwise when viewed from the top. Which of the four L-tetromino orientations results from these two rotations applied to the standard L shape (long side vertical, foot pointing right)?",
+    "options": {
+      "A": "Long side vertical, foot pointing left",
+      "B": "Long side horizontal, foot pointing up",
+      "C": "Long side vertical, foot pointing right",
+      "D": "Long side horizontal, foot pointing down"
+    },
+    "correctAnswer": "D",
+    "svgData": null
+  },
+  {
+    "id": "spat_011",
+    "type": "multiple-choice",
+    "domain": "spatial",
+    "difficulty": 2,
+    "prompt": "If you look at a clock in a mirror, what time does it show if the actual time is 3:00?",
+    "options": {
+      "A": "9:00",
+      "B": "6:00",
+      "C": "3:00",
+      "D": "12:00"
+    },
+    "correctAnswer": "A",
+    "svgData": null
+  },
+  {
+    "id": "spat_012",
+    "type": "multiple-choice",
+    "domain": "spatial",
+    "difficulty": 3,
+    "prompt": "A rectangular box measures 4×3×2. How many unit cubes fit inside it?",
+    "options": {
+      "A": "18",
+      "B": "20",
+      "C": "24",
+      "D": "9"
+    },
+    "correctAnswer": "C",
+    "svgData": null
+  }
+]

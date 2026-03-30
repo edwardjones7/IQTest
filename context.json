@@ -1,0 +1,106 @@
+{
+  "project": {
+    "name": "IQ Test Application",
+    "version": "1.0.0",
+    "description": "Adaptive web-based IQ test with CAT algorithm, four cognitive domains, normed scoring, and detailed results",
+    "created": "2026-03-30"
+  },
+  "tech": {
+    "frontend": {
+      "framework": "React 18",
+      "bundler": "Vite 5",
+      "styling": "Tailwind CSS 3",
+      "charts": "Recharts 2",
+      "router": "React Router 6",
+      "http": "Axios"
+    },
+    "backend": {
+      "runtime": "Node.js 20",
+      "framework": "Express 4",
+      "database": "none",
+      "storage": "stateless - questions.json in memory"
+    }
+  },
+  "ports": {
+    "client": 5173,
+    "server": 3001
+  },
+  "domains": [
+    {
+      "id": "pattern",
+      "label": "Pattern Recognition",
+      "prefix": "pat",
+      "questionCount": 10,
+      "weight": 1.2,
+      "color": "#F97316"
+    },
+    {
+      "id": "verbal",
+      "label": "Verbal Reasoning",
+      "prefix": "verb",
+      "questionCount": 10,
+      "weight": 1.0,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "numerical",
+      "label": "Numerical Reasoning",
+      "prefix": "num",
+      "questionCount": 10,
+      "weight": 1.1,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "spatial",
+      "label": "Spatial Reasoning",
+      "prefix": "spat",
+      "questionCount": 10,
+      "weight": 0.9,
+      "color": "#10B981"
+    }
+  ],
+  "scoring": {
+    "iqMean": 100,
+    "iqSD": 15,
+    "iqMin": 40,
+    "iqMax": 160,
+    "startDifficulty": 3,
+    "difficultyMin": 1,
+    "difficultyMax": 5,
+    "difficultyWeightExponent": 1.4,
+    "domainWeights": {
+      "pattern": 1.2,
+      "numerical": 1.1,
+      "verbal": 1.0,
+      "spatial": 0.9
+    }
+  },
+  "questionSchema": {
+    "required": ["id", "type", "domain", "difficulty", "prompt", "options", "correctAnswer"],
+    "optional": ["svgData", "explanation"],
+    "optionKeys": ["A", "B", "C", "D"],
+    "domainValues": ["pattern", "verbal", "numerical", "spatial"],
+    "difficultyRange": [1, 5]
+  },
+  "theme": {
+    "style": "warm-approachable",
+    "primaryColor": "#F97316",
+    "accentColor": "#FBBF24",
+    "backgroundBase": "#FFF7ED",
+    "fontFamily": "Inter"
+  },
+  "api": {
+    "baseUrl": "http://localhost:3001",
+    "endpoints": {
+      "questions": "GET /api/questions",
+      "score": "POST /api/score"
+    }
+  },
+  "cat": {
+    "questionsPerDomain": 10,
+    "startDifficulty": 3,
+    "consecutiveCorrectToLevelUp": 2,
+    "wrongToLevelDown": 1,
+    "domainOrder": ["pattern", "verbal", "numerical", "spatial"]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(node -e \"require\\(''./server/data/questions.json''\\) && console.log\\(''Questions JSON valid''\\)\")",
+      "Bash(node -e \":*)",
+      "Bash(curl -s http://localhost:3001/api/questions)",
+      "Bash(curl -s -X POST http://localhost:3001/api/score -H \"Content-Type: application/json\" -d \"{\"\"answers\"\":[{\"\"questionId\"\":\"\"pat_001\"\",\"\"selectedOption\"\":\"\"C\"\"},{\"\"questionId\"\":\"\"verb_001\"\",\"\"selectedOption\"\":\"\"C\"\"},{\"\"questionId\"\":\"\"num_001\"\",\"\"selectedOption\"\":\"\"B\"\"},{\"\"questionId\"\":\"\"spat_001\"\",\"\"selectedOption\"\":\"\"B\"\"}]}\")",
+      "Bash(node -e \"process.stdin.resume\\(\\);let d='''''''';process.stdin.on\\(''''data'''',c=>d+=c\\);process.stdin.on\\(''''end'''',\\(\\)=>{const j=JSON.parse\\(d\\);console.log\\(''''IQ:'''',j.composite.iq,''''Band:'''',j.composite.band,''''Percentile:'''',j.composite.percentile\\);console.log\\(''''Narrative OK:'''', !!j.narrative.overall\\);}\\);\")",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(cmd /c \"taskkill /F /IM node.exe\" 2>&1)",
+      "Bash(cmd /c \"netstat -ano | findstr :3001\")",
+      "Bash(cmd /c \"netstat -ano | findstr LISTEN | findstr :3001\")",
+      "Bash(cmd /c \"netstat -ano\")",
+      "Bash(cmd /c \"wmic process where \\\\\"name='node.exe'\\\\\" get processid,commandline 2>nul\")",
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Select-Object Id, StartTime | Format-Table\")",
+      "Bash(powershell -Command \"Get-NetTCPConnection -LocalPort 3001 -ErrorAction SilentlyContinue | Select-Object LocalPort, OwningProcess, State\")",
+      "Bash(powershell -Command \"Stop-Process -Id 43012 -Force\")",
+      "Bash(npm run:*)",
+      "Bash(powershell -Command \"Start-Process 'http://localhost:5173'\")",
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force\")"
+    ]
+  }
+}
