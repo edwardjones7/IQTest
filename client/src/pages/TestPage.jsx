@@ -37,6 +37,8 @@ export default function TestPage() {
       setSubmitting(true);
       submitAnswers(engine.getSubmittableAnswers())
         .then(results => {
+          // Persist results so they survive the Stripe redirect
+          sessionStorage.setItem('iqResults', JSON.stringify(results));
           navigate('/results', { state: { results } });
         })
         .catch(() => {

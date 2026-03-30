@@ -1,10 +1,13 @@
 'use strict';
 
+require('dotenv').config();
+
 const express = require('express');
 const cors = require('cors');
 
 const questionsRouter = require('./routes/questions');
 const scoreRouter = require('./routes/score');
+const checkoutRouter = require('./routes/checkout');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -14,6 +17,7 @@ app.use(express.json());
 
 app.use('/api/questions', questionsRouter);
 app.use('/api/score', scoreRouter);
+app.use('/api/checkout', checkoutRouter);
 
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
 

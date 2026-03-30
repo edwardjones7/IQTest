@@ -18,7 +18,11 @@
       "Bash(powershell -Command \"Stop-Process -Id 43012 -Force\")",
       "Bash(npm run:*)",
       "Bash(powershell -Command \"Start-Process 'http://localhost:5173'\")",
-      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force\")"
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force\")",
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force; echo ''killed''\")",
+      "Bash(powershell -Command \"Remove-Item -Recurse -Force ''C:\\\\Users\\\\edjjo\\\\OneDrive\\\\Desktop\\\\iqtest\\\\client\\\\node_modules\\\\.vite'' -ErrorAction SilentlyContinue; echo ''cache cleared''\")",
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force; echo killed\")",
+      "Bash(curl -s -X POST http://localhost:3001/api/checkout/create-session)"
     ]
   }
 }

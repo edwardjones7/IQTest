@@ -14,3 +14,13 @@ export async function submitAnswers(answers) {
   const { data } = await api.post('/score', { answers });
   return data;
 }
+
+export async function createCheckoutSession() {
+  const { data } = await api.post('/checkout/create-session');
+  return data.url;
+}
+
+export async function verifyPayment(sessionId) {
+  const { data } = await api.post('/checkout/verify', { sessionId });
+  return data.paid;
+}
