@@ -21,7 +21,7 @@ export default function App() {
       <footer className="text-center py-5 text-xs text-rose-300 no-print space-y-1">
         <div>
           © {new Date().getFullYear()}{' '}
-          <a href="https://acuity.ai" className="text-rose-500 hover:text-rose-700 font-semibold transition-colors">
+          <a href="https://www.acuityiq.live" className="text-rose-500 hover:text-rose-700 font-semibold transition-colors">
             Acuity
           </a>
           {' '}· All rights reserved
