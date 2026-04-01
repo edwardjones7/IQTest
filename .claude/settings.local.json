@@ -31,7 +31,8 @@
       "Bash(node -e \"require\\('sharp'\\)\")",
       "Bash(node:*)",
       "Bash(npm uninstall:*)",
-      "Bash(xargs wc:*)"
+      "Bash(xargs wc:*)",
+      "WebFetch(domain:www.acuityiq.live)"
     ]
   }
 }
